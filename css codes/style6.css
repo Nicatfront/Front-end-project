@@ -115,18 +115,13 @@ main {
     height: auto;
     width: 80%;
     float: left;
-    /*Sebebi bu hisse kecsin menu olan hissenin sagina*/
     padding: 10px;
 }
-
-
-/* Block-genislik,hundurluk,ve margin xussusiyyetine malikdir*/
 
 .qp {
     width: 47%;
     height: auto;
     display: inline-block;
-    /*sekiller 1setrde yanbayan dursun*/
     margin-right: 15px;
     border-radius: 10px;
     box-shadow: 0 2px 8px 2px rgba(28, 23, 23, 15);
@@ -274,7 +269,6 @@ b {
     box-shadow: 0 2px 8px 2px rgba(28, 23, 23, 15);
     transition: 0.3s;
     object-fit: cover;
-    /*Meqsedi sekillere hover etdikde sekil daralmir daha gozel gorunur*/
 }
 
 .qlsn:hover {
@@ -341,7 +335,6 @@ textarea {
 .hgwx::after {
     content: "";
     clear: both;
-    /* meqsedi dagilmis setrleri bir cergede seliqeye salmaqdir*/
     display: block;
 }
 
@@ -370,7 +363,6 @@ textarea {
 
 .yytt {
     display: block;
-    /*meqsedi spanlari ayri setrlerde yazmaqdi*/
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     margin: 10px;
